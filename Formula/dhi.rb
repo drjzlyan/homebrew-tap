@@ -1,7 +1,6 @@
 class Dhi < Formula
   desc "The agentic workspace IDE"
   homepage "https://github.com/drjzlyan/dhi"
-  version "0.2.0"
   license "MIT"
 
   on_macos do
