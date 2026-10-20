@@ -5,22 +5,22 @@ class Dhi < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/drjzlyan/dhi/releases/download/v0.4.1/dhi_darwin_arm64.tar.gz"
-      sha256 "cb0350fd4ab810a9178ff0966756be0a91eeaabcedb05292026f7c693418882a"
+      url "https://github.com/drjzlyan/dhi/releases/download/v0.5.0/dhi_darwin_arm64.tar.gz"
+      sha256 "b4d5d7e1b8979837821fe12cea8b3cb00327b51cc97e825c670406834510ec5b"
     end
     on_intel do
-      url "https://github.com/drjzlyan/dhi/releases/download/v0.4.1/dhi_darwin_amd64.tar.gz"
-      sha256 "fdca3c814e7bbec9ec96ef4df8db06a8c80f8f286eba66f040959606ef0b1c3c"
+      url "https://github.com/drjzlyan/dhi/releases/download/v0.5.0/dhi_darwin_amd64.tar.gz"
+      sha256 "2568b5d551f5495e41d32962b6053fb568b797ea5e664af5ab63c5781f4afb6d"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/drjzlyan/dhi/releases/download/v0.4.1/dhi_linux_arm64.tar.gz"
-      sha256 "89f6d0f2f1d84df562658bdad4c4d41a9a5fd1ff9dbd462ebb8ffb22db461914"
+      url "https://github.com/drjzlyan/dhi/releases/download/v0.5.0/dhi_linux_arm64.tar.gz"
+      sha256 "1019682680eb3b9ed89b2b12e5868e8ffd1c3203985a821e16add1a7158a5533"
     end
     on_intel do
-      url "https://github.com/drjzlyan/dhi/releases/download/v0.4.1/dhi_linux_amd64.tar.gz"
-      sha256 "5a4e33f12e732d26ae9ae26a278d5bc79273dc941c61b8d35d5e8cde9c4c4783"
+      url "https://github.com/drjzlyan/dhi/releases/download/v0.5.0/dhi_linux_amd64.tar.gz"
+      sha256 "6d54891122e612f0e4e3d1b2be6f87b471f7ddcabc778c7bfe49df8d25c1efc1"
     end
   end
   def install
